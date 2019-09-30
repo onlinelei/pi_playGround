@@ -27,7 +27,6 @@ public class Light {
         System.out.println("--> GPIO state should be: ON for only 1 second");
         pin.pulse(1000, true);
 
-
         // stop all GPIO activity/threads by shutting down the GPIO controller
         // (this method will forcefully shutdown all GPIO monitoring threads and scheduled tasks)
         gpioController.shutdown();
