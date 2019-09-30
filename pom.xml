@@ -6,9 +6,10 @@
     <groupId>win.suroot</groupId>
     <artifactId>pi_playGround</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
     <name>pi_playGround</name>
-    <description>Demo project for Spring Boot</description>
+    <description>Demo of pi playGround</description>
 
 
     <dependencies>
@@ -24,13 +25,4 @@
             <scope>compile</scope>
         </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 </project>
